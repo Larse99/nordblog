@@ -1,0 +1,27 @@
+// Homepage
+header {
+    background-color: $bg-1;
+}
+
+
+
+
+/* Media query for tablets (min-width: 768px) */
+@media screen and (min-width: $tablet) {
+
+}
+
+/* Media query for small desktops (min-width: 1024px) */
+@media screen and (min-width: $desktop) {
+    header {
+        height: 20em;
+        width: 100%;
+    }
+}
+
+/* Media query for larger desktops (min-width: 1200px) */
+@media screen and (min-width: $desktop-lg) {
+    header {
+        height: 40em;
+    }
+}
