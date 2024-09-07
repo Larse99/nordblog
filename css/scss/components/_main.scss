@@ -1,0 +1,80 @@
+// header
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, $bg-1 250px, $bg 0);
+
+    .container {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .circle {
+        width: 150px;
+        height: 150px;
+        background-color: #7b9bba;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 250px;
+        transform: translateY(-50%);
+    }
+
+    h1 {
+        font-weight: 700;
+        padding: 3em 0 0.8em 0;
+    }
+
+    p {
+        font-weight: 100;
+        width: 90%;
+        // text-align: justify;
+        padding: 0em 0 2em 0;    }
+
+    // Recent Posts
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+        
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            a {
+                text-decoration: none;
+                font-weight: 700;
+                color: $text-primary;
+            }
+
+            span {
+                font-weight: 700;
+                color: $text-secondary;
+            }
+        }
+    }
+}
+
+
+
+
+
+/* Media query for tablets (min-width: 768px) */
+@media screen and (min-width: $tablet) {
+
+}
+
+/* Media query for small desktops (min-width: 1024px) */
+@media screen and (min-width: $desktop) {
+    nav {
+
+    }
+}
+
+/* Media query for larger desktops (min-width: 1200px) */
+@media screen and (min-width: $desktop-lg) {
+
+}

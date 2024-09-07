@@ -2,7 +2,11 @@
 @import "scss/vendors/reset.css";
 @import "scss/variables";
 @import "scss/utilities/typography";
+
+
+// Componenets
 @import "scss/components/navbar";
+@import "scss/components/main";
 
 // Pages
 @import "scss/pages/home";
@@ -13,13 +17,13 @@
 // --- General styling ---
 body {
     background-color: $bg;
+    font-family: 'Roboto', arial, sans-serif;
 }
 
 .container {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
-
 
 
 
